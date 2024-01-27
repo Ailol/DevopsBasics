@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  pool: Test
+  name: Test
 
 # This pipeline has only one job with multiple steps.
 # Steps are executed sequentially, which means no parallelism is used.
